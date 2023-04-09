@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(90deg,#0081a7,#00afb9,#fed9b7,#f07167); */
+    background-size: 300%, 300%;
+    animation: color 20s ease-in-out infinite;
+    color: rgb(20, 20, 20);
+    background-image: url(stars1.png), linear-gradient(90deg,#0081a7,#00afb9,#fed9b7,#f07167);
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position:100% 50%;
+    }
+    100%{
+        background-position: 0 100%;
+    }
+}
+.crud{
+    width: 80%;
+    margin: auto;
+
+}
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #f3eeee;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: rgb(24, 24, 24);
+}
+input:focus{
+    background: #f6e5e5;
+    transform: scale(1.1);
+}
+.price input{
+    width: 20%;
+
+}
+#total{
+    background: #f01e0f;
+    padding: 5px 2px;
+    border-radius: 4px;
+    color: white;
+}
+#total::before{
+    content: 'Total';
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #dd7a83;
+    color: #ffffff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+button:hover{
+    background: #d75762;
+    letter-spacing: 1px;
+}
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btnSearch button{
+    width: 45%;
+
+}
+#deleteAll{
+    margin: 20px 0;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
